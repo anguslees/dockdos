@@ -1,4 +1,4 @@
-FROM debian:buster@sha256:58ce6f1271ae1c8a2006ff7d3e54e9874d839f573d8009c20154ad0f2fb0a225
+FROM debian:bookworm@sha256:45f2e735295654f13e3be10da2a6892c708f71a71be845818f6058982761a6d3
 MAINTAINER Angus Lees <gus@inodes.org>
 
 ADD https://github.com/stsp/dosemu2/releases/download/dosemu2-2.0pre6/dosemu2_2.0.pre6-1_amd64.deb /tmp/dosemu2.deb
